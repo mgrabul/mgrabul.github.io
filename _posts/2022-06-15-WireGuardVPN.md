@@ -28,12 +28,7 @@ sudo apt install curl
 Reference: https://www.cyberciti.biz/faq/how-to-install-curl-command-on-a-ubuntu-linux/
 
 ### Install piVPN
-Second step, piVPN needs to be installed. PiVPN is an easy way to set up wireguard. After running the following command, step by step installation process is started that will guide you thew the install process. PiVPN also offers OpenVpn so make sure you pick the correct vpn during this process. Also select custom-dns from the dns list as this tutorial shows hot to use Duck-dns
-```sh
-curl -L https://install.pivpn.io | bash
-```
-![S](../_site/assets/img/2022-06-15-TITLE/dns_provider.png)
-![S](../_site/assets/img/2022-06-15-TITLE/installation_mode.png)
+Second step, piVPN needs to be installed. PiVPN is an easy way to set up wireguard. After running the following command `curl -L https://install.pivpn.io | bash`, step by step installation process is started that will guide you thew the install process. PiVPN also offers OpenVpn so make sure you pick the correct vpn during this process. Also pls select custom-dns from the dns list as this tutorial shows how to use Duck-dns.
 
 Reference: https://www.pivpn.io/
 
