@@ -44,3 +44,11 @@ This work is published under [MIT][mit] License.
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+## Fix github deployment
+The repo fails to deploy the site on github pages. It fails on the github work flow.
+In order to fix this run
+```bash
+bundle lock --add-platform x86_64-linux
+```
+Reference: [Github discussion](https://github.com/cotes2020/jekyll-theme-chirpy/issues/628), [Solution](https://github.com/cotes2020/jekyll-theme-chirpy/issues/628#issuecomment-1172151555)
