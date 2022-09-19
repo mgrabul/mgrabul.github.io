@@ -18,7 +18,11 @@ Zookipper cluster is used for orcestration/managment of the brokers in the Broke
 ## Important files and commands
 * kafka auto competition https://github.com/Kafka-In-Action-Book/kafka_tools_completion
 * kafka-zsh-completions https://github.com/Dabz/kafka-zsh-completions
-
+* List topics, the bin/*.sh scripts are from a kafka installation and the localhost:<PORT> are in the first case running zookeeper and in the second running broker    
+** bin/zookeeper-shell.sh localhost:2181
+ls /brokers/topics # also zookeeper-shell.sh is located in the zookeeper's bin/ directory
+** bin/kafka-topics.sh --list \
+➥ --bootstrap-server localhost:9094 # is also located in the kafka's /bin directory
 ## Reference:
 * https://www.baeldung.com/ops/kafka-docker-setup
 * https://github.com/Kafka-In-Action-Book/Kafka-In-Action-Source-Code/blob/master/docker-compose.yaml
