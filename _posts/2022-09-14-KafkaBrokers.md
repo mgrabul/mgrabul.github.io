@@ -1,7 +1,7 @@
 ---
 title: Kafka Brokers
 date: 2022-09-14
-categories: [Kafka, Brokers]
+categories: [Kafka]
 tags: [kafka, brokers, zookeeper]     # TAG names should always be lowercase
 ---
 
