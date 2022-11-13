@@ -1,5 +1,5 @@
 ---
-title: Kafka Consumers Spring boot
+title: Kafka Consumers in Spring Boot
 date: 2022-11-03
 categories: [Kafka]
 tags: [kafka, consumers]     # TAG names should always be lowercase
